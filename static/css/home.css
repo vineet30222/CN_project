@@ -1,0 +1,249 @@
+body{
+    font-family: cursive;
+    background-color: #fce043;
+background-image: linear-gradient(315deg, #fce043 0%, #fb7ba2 74%);
+
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#div-1
+{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: white;
+
+}
+
+#div-2
+{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background: white; 
+    justify-content: space-between;
+}
+
+.description
+{
+  height: auto;
+
+   
+}
+
+.box
+{
+    width: 70vw;
+}
+
+#category
+{
+    width: 45%;
+    border-right: 1px solid black;
+}
+
+#due-date
+{
+    width: 45%;
+}
+
+.button-add:hover{
+background-color: #3f0d12;
+background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+}
+.button-add {
+    background-color: #f7b42c;
+background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+
+
+  background-color:black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-delete:hover{
+   
+    background-color :#bd4f6c;
+background-image :linear-gradient(326deg, #bd4f6c 0%, #d7816a 74%);
+
+}
+.button-delete
+{
+    background-color: #6b0f1a;
+background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
+
+    
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#div-3
+{
+    justify-content: center;
+    background: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#div-4
+{
+    background: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+}
+
+#input
+{
+    min-height: 20px;
+    width: 80%;
+    background: yellow;
+}
+
+
+
+#input {
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    background-color: white;
+    background-color: -moz-field;
+    border: 1px solid darkgray;
+    box-shadow: 1px 1px 1px 0 lightgray inset;  
+    font: -moz-field;
+    font: -webkit-small-control;
+    margin-top: 5px;
+    padding: 2px 3px;
+    width: 80%;    
+}
+
+#details
+{
+    display: flex;
+    flex-direction: column;
+}
+.item:hover
+{
+    background-color: #a40606;
+background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
+ 
+}
+
+.item
+{
+    background-color :#bd4f6c;
+background-image :linear-gradient(326deg, #bd4f6c 0%, #d7816a 74%);
+font-family: cursive;
+    display: flex;
+    justify-content: space-between;
+    width: 65vw;
+    height: auto;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+.write:hover
+{
+    
+
+
+}
+
+.write
+{
+    width: 100%;
+    padding: 5px;
+    font-weight: 10px;
+    font-size: 20px;
+    margin: 5px;
+    border:1px solid black;
+}
+.write-2
+{
+    
+    padding: 5px;
+    font-weight: 10px;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    height: 30px;
+    border:1px solid black;
+}
+.options
+{
+    border:1px solid black;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    
+}
+
+#des
+{
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+.che
+{
+    width: 25px;
+    height: 25px;
+    margin-top:15px;
+}
+
+
+
+.dat
+{
+    font-size: 18px;
+}
+
+.a
+{
+    height: auto;
+    color: white;
+    font-size: 15px;
+    background-color: #6b0f1a;
+background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
+border-radius: 5px;
+
+}
